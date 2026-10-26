@@ -59,6 +59,3 @@ Run the main program:
 npx ts-node main.ts
 The gradeUtils.ts file is a module used by main.ts. It exports the utility functions and enum used by the main program.
 
-### IMPORTANT
-
-I intentionally wrote the README this way because `gradeUtils.ts` is a **module** containing exports; it doesn't have a main program that prints the report. So the actual runnable program is `main.ts`.
